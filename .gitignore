@@ -1,0 +1,71 @@
+# Dependencias y paquetes de Composer
+/vendor/
+composer.lock
+
+# Archivos de configuración de entorno
+.env
+.env.local
+.env.*.local
+.env.php
+.env.php.local
+
+# Archivos y directorios de caché
+/cache/
+logs/
+tmp/
+
+# Configuración y archivos de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de PHPUnit
+.phpunit.result.cache
+
+# Archivos de distribución de PHPStorm
+/.phpstorm.meta.php/
+
+# Archivos de configuración de despliegue
+/.buildpath
+/.project
+/.settings/
+/.DS_Store
+
+# Archivos y directorios de Docker
+docker-compose.override.yml
+docker-sync.yml
+.docker/
+
+# Archivos de cobertura de pruebas
+coverage/
+*.cov
+
+# Archivos de sesiones y caché de sesiones
+sessions/
+
+# Archivos de PHP CS Fixer
+.php_cs.cache
+.php_cs.dist
+
+# Archivos de logs y de depuración
+*.log
+*.cache
+
+# Archivos de configuración de PHPUnit
+phpunit.xml
+phpunit.xml.dist
+
+# Archivos de Phing
+phing.build
+
+# Archivos de test de PHPStan y PHP Insights
+phpstan.neon
+phpinsights.php
+
+# Archivos de configuración de npm y yarn (si usas Node.js junto con PHP)
+node_modules/
+yarn.lock
+
+# Archivos de configuración de herramientas CI/CD
+/.github/
