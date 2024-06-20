@@ -19,4 +19,6 @@ class handle_user {
   public function logout() {
 
   }
+
+  public static function create() {}
 }
